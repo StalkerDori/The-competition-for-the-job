@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace LORENATable
 {
@@ -14,7 +15,13 @@ namespace LORENATable
         public Form1()
         {
             InitializeComponent();
+
+            using (SQLiteConnection connection = new SQLiteConnection())
+            {
+
+            }
         }
+          
 
         private void Button1_Click(object sender, EventArgs e)
         {
