@@ -110,7 +110,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.Black;
+            this.tabPage2.BackColor = System.Drawing.Color.DimGray;
             this.tabPage2.Controls.Add(this.Цена);
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.label1);
@@ -125,7 +125,7 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.BackColor = System.Drawing.Color.DimGray;
             this.tabPage3.Controls.Add(this.textBox5);
             this.tabPage3.Controls.Add(this.label4);
             this.tabPage3.Controls.Add(this.label2);
@@ -141,7 +141,7 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.Color.Black;
+            this.tabPage4.BackColor = System.Drawing.Color.DimGray;
             this.tabPage4.Controls.Add(this.button3);
             this.tabPage4.Controls.Add(this.textBox6);
             this.tabPage4.Controls.Add(this.label5);
@@ -153,7 +153,7 @@
             // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.Color.Black;
+            this.listBox1.BackColor = System.Drawing.Color.DimGray;
             this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
@@ -303,6 +303,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
